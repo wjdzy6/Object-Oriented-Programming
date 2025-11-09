@@ -11,6 +11,6 @@ public class Surgeon extends HealthProfessional {
     @Override
     public void printDetails() {
         super.printDetails();
-        System.out.println("手术专科: " + surgicalSpecialty);
+        System.out.println("Surgeon: " + surgicalSpecialty);
     }
 }

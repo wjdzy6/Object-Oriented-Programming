@@ -12,7 +12,7 @@ public class HealthProfessional {
     }
 
     public void printDetails() {
-        System.out.println("ID: " + id + "\n姓名: " + name + "\n科室: " + department);
+        System.out.println("ID: " + id + "\nName: " + name + "\nDepartment: " + department);
     }
 
     // Getter/Setter

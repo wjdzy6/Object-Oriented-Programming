@@ -11,6 +11,6 @@ public class GeneralPractitioner extends HealthProfessional {
     @Override
     public void printDetails() {
         super.printDetails();
-        System.out.println("接收新患者: " + (acceptsNewPatients ? "是" : "否"));
+        System.out.println("Admission of new patients : " + (acceptsNewPatients ? "TRUE" : "FALSE"));
     }
 }

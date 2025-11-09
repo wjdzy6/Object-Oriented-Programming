@@ -14,8 +14,8 @@ public class Appointment {
     }
 
     public void printDetails() {
-        System.out.println("患者: " + patientName + "\n电话: " + mobile + "\n时间: " + timeSlot);
-        System.out.println("医生详情:");
+        System.out.println("Patients: " + patientName + "\nphone: " + mobile + "\ntime: " + timeSlot);
+        System.out.println("Doctor Details: :");
         doctor.printDetails();
     }
 
